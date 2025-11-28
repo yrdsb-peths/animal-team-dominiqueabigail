@@ -14,7 +14,7 @@ public class MyWorld extends World {
         scoreLabel = new Label(0, 80);
         addObject(scoreLabel, 50, 50);
         
-        spawnApple();
+        createApple();
     }
     
     public void gameOver()
@@ -34,7 +34,7 @@ public class MyWorld extends World {
         }
     }
     
-    public void spawnApple()
+    public void createApple()
     {
         Apple apple = new Apple();
         apple.setSpeed(level);
