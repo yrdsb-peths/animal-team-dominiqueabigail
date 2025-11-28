@@ -21,13 +21,13 @@ public class Elephant extends Actor
     {
         for(int i = 0; i < idleRight.length; i++)
         {
-            idleRight[i] = new GreenfootImage("images/elephantimages/elephantidle" + i + ".png");
+            idleRight[i] = new GreenfootImage("images/elephantidle" + i + ".png");
             idleRight[i].scale(100, 100);
         }
         
         for(int i = 0; i < idleLeft.length; i++)
         {
-            idleLeft[i] = new GreenfootImage("images/elephantimages/elephantidle" + i + ".png");
+            idleLeft[i] = new GreenfootImage("images/elephantidle" + i + ".png");
             idleLeft[i].mirrorHorizontally();
             idleLeft[i].scale(100, 100);
         }
