@@ -35,22 +35,33 @@ public class TitleScreen extends World
     
     private void prepare()
     {
+
         Elephant elephant = new Elephant();
-        addObject(elephant,366,87);
-        elephant.setLocation(392,112);
-        elephant.setLocation(338,99);
-        elephant.setLocation(422,113);
-        Label label = new Label("Press <space> to Start", 40);
-        addObject(label,178,252);
-        label.setLocation(231,335);
-        Label label2 = new Label("Use \u2190 and \u2192 to Move", 40);
-        addObject(label2,200,239);
-        elephant.setLocation(508,137);
-
-        label2.setLocation(308,234);
-
-        label.setLocation(313,302);
-
-        elephant.setLocation(463,121);
+        addObject(elephant,110,322);
+        elephant.setLocation(92,312);
+        Apple apple = new Apple();
+        addObject(apple,170,316);
+        apple.setLocation(176,322);
+        apple.setLocation(176,322);
+        apple.setLocation(185,313);
+        Label label = new Label("Use \u2190 and \u2192 to move", 50);
+        addObject(label,389,284);
+        Label label2 = new Label("Press <space> to start", 50);
+        addObject(label2,404,344);
+        label2.setLocation(367,357);
+        label.setLocation(418,253);
+        label.setLocation(200,164);
+        label.setLocation(363,129);
+        label.setLocation(328,140);
+        label2.setLocation(300,204);
+        label.setLocation(291,157);
+        label.setLocation(305,147);
+        elephant.setLocation(93,72);
+        apple.setLocation(491,73);
+        label2.setLocation(319,349);
+        label.setLocation(304,285);
+        label.setLocation(302,275);
+        label2.setLocation(281,330);
+        label2.setLocation(297,341);
     }
 }
