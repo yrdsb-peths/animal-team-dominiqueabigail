@@ -25,10 +25,9 @@ public class Apple extends Actor
         int y = getY() + speed;
         setLocation(x, y);
         
-        MyWorld world = (MyWorld) getWorld();
+        World world = getWorld();
         if(getY() >= world.getHeight())
         {
-            world.gameOver();
             world.removeObject(this);
         }
     }

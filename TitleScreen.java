@@ -35,15 +35,9 @@ public class TitleScreen extends World
     
     private void prepare()
     {
-
         Elephant elephant = new Elephant();
         addObject(elephant,110,322);
         elephant.setLocation(92,312);
-        Apple apple = new Apple();
-        addObject(apple,170,316);
-        apple.setLocation(176,322);
-        apple.setLocation(176,322);
-        apple.setLocation(185,313);
         Label label = new Label("Use \u2190 and \u2192 to move", 50);
         addObject(label,389,284);
         Label label2 = new Label("Press <space> to start", 50);
@@ -57,7 +51,6 @@ public class TitleScreen extends World
         label.setLocation(291,157);
         label.setLocation(305,147);
         elephant.setLocation(93,72);
-        apple.setLocation(491,73);
         label2.setLocation(319,349);
         label.setLocation(304,285);
         label.setLocation(302,275);
