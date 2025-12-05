@@ -42,6 +42,7 @@ public class MyWorld extends World {
     {
         Apple apple = new Apple();
         apple.setSpeed(level);
+        
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
